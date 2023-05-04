@@ -36,7 +36,7 @@ class UserTableSeeder extends Seeder
 
         User::forceCreate([
             'name' => 'Laravel Nova',
-            'email' => 'nova@laravel.com',
+            'email' => 'hello@iddigital.com.au',
             'password' => $password,
         ]);
     }
